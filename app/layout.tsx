@@ -14,6 +14,8 @@ const inter = Inter({
   subsets: ["latin"],
 });
 
+const SITE_URL = "https://churchinthecommunity.com";
+
 export const metadata: Metadata = {
   title: "Church in the Community | Los Cabos",
   description:
@@ -23,12 +25,41 @@ export const metadata: Metadata = {
     "church Los Cabos",
     "Christian church Cabo San Lucas",
     "Church in the Community",
+    "iglesia cristiana Los Cabos",
+    "Hampton Inn church",
   ],
+  metadataBase: new URL(SITE_URL),
+  alternates: {
+    canonical: "/",
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: { index: true, follow: true },
+  },
   openGraph: {
     title: "Church in the Community | Los Cabos",
     description:
       "Church in the Community — Every Sunday at 10am at the Hampton Inn, Los Cabos. Join us in worship, community, and service.",
     type: "website",
+    url: SITE_URL,
+    siteName: "Church in the Community",
+    locale: "en_US",
+    images: [
+      {
+        url: "/images/og-image.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Church in the Community — Los Cabos",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Church in the Community | Los Cabos",
+    description:
+      "Church in the Community — Every Sunday at 10am at the Hampton Inn, Los Cabos. Join us in worship, community, and service.",
+    images: ["/images/og-image.jpg"],
   },
 };
 

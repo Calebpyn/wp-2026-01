@@ -3,7 +3,7 @@ import Image from "next/image";
 // ── Placeholder contacts — replace with real values when client provides them
 const PHONE_HREF = "tel:+1";
 const FACEBOOK_HREF =
-  "https://www.facebook.com/EDUCATEDIGNORANCE?mibextid=wwXIfr&mibextid=wwXIfr";
+  "https://www.facebook.com/profile.php?id=61578440395214&mibextid=wwXIfr";
 const EMAIL_HREF = "mailto:info@churchinthecommunity.com";
 
 function PhoneIcon() {

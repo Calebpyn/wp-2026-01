@@ -80,7 +80,7 @@ export default function Hero() {
           className="flex flex-col sm:flex-row gap-3 w-[70%] sm:w-auto sm:justify-center"
         >
           <PillButton
-            href="https://www.facebook.com/EDUCATEDIGNORANCE?mibextid=wwXIfr&mibextid=wwXIfr"
+            href="https://www.facebook.com/profile.php?id=61578440395214&mibextid=wwXIfr"
             target="_blank"
             variant="outline"
           >
