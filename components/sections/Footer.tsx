@@ -1,10 +1,10 @@
 import Image from "next/image";
+import CopyEmailButton from "@/components/ui/CopyEmailButton";
 
-// ── Placeholder contacts — replace with real values when client provides them
-const PHONE_HREF = "tel:+1";
+const PHONE_HREF = "tel:+19169450751";
 const FACEBOOK_HREF =
   "https://www.facebook.com/profile.php?id=61578440395214&mibextid=wwXIfr";
-const EMAIL_HREF = "mailto:info@churchinthecommunity.com";
+const EMAIL = "ministry.ctc@gmail.com";
 
 function PhoneIcon() {
   return (
@@ -42,24 +42,6 @@ function FacebookIcon() {
   );
 }
 
-function MailIcon() {
-  return (
-    <svg
-      width="28"
-      height="28"
-      viewBox="0 0 24 24"
-      fill="none"
-      stroke="currentColor"
-      strokeWidth="1.5"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      aria-hidden="true"
-    >
-      <rect width="20" height="16" x="2" y="4" rx="2" />
-      <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7" />
-    </svg>
-  );
-}
 
 export default function Footer() {
   return (
@@ -108,13 +90,7 @@ export default function Footer() {
           >
             <FacebookIcon />
           </a>
-          <a
-            href={EMAIL_HREF}
-            aria-label="Email us"
-            className="hover:text-white/60 transition-colors duration-200"
-          >
-            <MailIcon />
-          </a>
+          <CopyEmailButton email={EMAIL} />
         </nav>
       </div>
     </footer>

@@ -77,6 +77,8 @@ const jsonLd = {
   },
   openingHours: "Su 10:00-12:00",
   url: "https://churchinthecommunity.com",
+  telephone: "+19169450751",
+  email: "ministry.ctc@gmail.com",
 };
 
 export default function RootLayout({

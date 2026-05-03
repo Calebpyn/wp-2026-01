@@ -171,4 +171,4 @@ openGraph: { ... } // imagen del hero
 - [ ] Logo CitC (SVG preferido)
 - [ ] QR codes: Zelle, Cashapp, Venmo
 - [ ] URL de Facebook Live (para CTA "Join us Live")
-- [ ] Links de contacto: teléfono y email para footer
+- [x] Links de contacto: +19169450751 · ministry.ctc@gmail.com
