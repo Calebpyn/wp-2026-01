@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- Navy background -->
+  <rect width="100" height="100" fill="#1E2D3D"/>
+
+  <!-- Decorative lines flanking crown -->
+  <line x1="10" y1="22" x2="39" y2="22" stroke="#8A9A6A" stroke-width="0.8"/>
+  <line x1="61" y1="22" x2="90" y2="22" stroke="#8A9A6A" stroke-width="0.8"/>
+
+  <!-- Crown (3 points + base bar) -->
+  <path d="M43,28 L44,21 L47,25.5 L50,17 L53,25.5 L56,21 L57,28 Z" fill="#8A9A6A"/>
+  <rect x="43" y="27" width="14" height="1.5" fill="#8A9A6A"/>
+
+  <!-- Cross: vertical bar -->
+  <rect x="48.5" y="29.5" width="3" height="43" fill="#FFFFFF"/>
+  <!-- Cross: horizontal bar -->
+  <rect x="38" y="40.5" width="24" height="3" fill="#FFFFFF"/>
+
+  <!-- Left C -->
+  <text
+    x="22" y="67"
+    font-family="Georgia, 'Times New Roman', serif"
+    font-size="35"
+    fill="#FFFFFF"
+    text-anchor="middle"
+  >C</text>
+
+  <!-- Right C -->
+  <text
+    x="78" y="67"
+    font-family="Georgia, 'Times New Roman', serif"
+    font-size="35"
+    fill="#FFFFFF"
+    text-anchor="middle"
+  >C</text>
+</svg>
